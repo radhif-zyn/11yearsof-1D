@@ -1646,12 +1646,21 @@ a {
 	margin-top: 5rem;
 }
 
+.containers.timelineExpanded .album-header {
+        margin-bottom: 3rem;
+}
+
+
 .containers.achievementExpanded {
     height: 85rem;
 }
 
 .containers.achievementExpanded .achievement-header {
 	margin-top: 5rem;
+}
+
+.containers.achievementExpanded .album-header {
+        margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 768px) {
