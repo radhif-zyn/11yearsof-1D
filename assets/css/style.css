@@ -1639,7 +1639,7 @@ a {
 }
 
 .containers.timelineExpanded {
-    height: 200rem;
+    height: 205rem;
 }
 
 .containers.timelineExpanded .timeline-header {
@@ -1647,7 +1647,7 @@ a {
 }
 
 .containers.achievementExpanded {
-    height: 80rem;
+    height: 85rem;
 }
 
 .containers.achievementExpanded .achievement-header {
@@ -1656,11 +1656,11 @@ a {
 
 @media screen and (max-width: 768px) {
 	.containers.timelineExpanded {
-	    height: 225rem;
+	    height: 230rem;
 	}
 	
 	.containers.achievementExpanded {
-	    height: 150rem;
+	    height: 155rem;
 	}
 	
 	.timeline-content-title {
