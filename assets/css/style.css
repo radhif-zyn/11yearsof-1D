@@ -1639,11 +1639,25 @@ a {
 }
 
 .containers.timelineExpanded {
-    height: 230rem;
+    height: 200rem;
 }
 
 .containers.achievementExpanded {
-    height: 120rem;
+    height: 80rem;
+}
+
+@media screen and (max-width: 768px) {
+	.containers.timelineExpanded {
+	    height: 225rem;
+	}
+	
+	.containers.achievementExpanded {
+	    height: 150rem;
+	}
+	
+	.timeline-content-title {
+		margin-top: -10rem;
+	}
 }
 
 .timeline {
