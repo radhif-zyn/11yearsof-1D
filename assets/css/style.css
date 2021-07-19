@@ -1632,7 +1632,7 @@ a {
 }
 
 .containers.timelineExpanded .timeline-header {
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 
 .containers.timelineExpanded .album-header {
@@ -1646,7 +1646,7 @@ a {
 }
 
 .containers.achievementExpanded .achievement-header {
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 
 .containers.achievementExpanded .album-header {
