@@ -1642,8 +1642,16 @@ a {
     height: 200rem;
 }
 
+.containers.timelineExpanded .timeline-header {
+	margin-top: 5rem;
+}
+
 .containers.achievementExpanded {
     height: 80rem;
+}
+
+.containers.achievementExpanded .achievement-header {
+	margin-top: 5rem;
 }
 
 @media screen and (max-width: 768px) {
