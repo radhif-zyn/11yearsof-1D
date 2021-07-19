@@ -1638,6 +1638,10 @@ a {
     transition: .5s;
 }
 
+.card-wrapper {
+    margin-top: 15rem;
+}
+
 .containers.timelineExpanded {
     height: 205rem;
 }
