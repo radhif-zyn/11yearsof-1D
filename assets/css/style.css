@@ -1530,7 +1530,7 @@ a {
     background: transparent;
     display: flex;
     align-items: center;
-    margin-bottom: 15rem;
+    margin-bottom: 25rem;
 }
 
 .career-btn {
@@ -1648,6 +1648,7 @@ a {
 
 .containers.timelineExpanded .album-header {
         margin-bottom: 3rem;
+        padding-bottom: 3rem;
 }
 
 
@@ -1661,6 +1662,7 @@ a {
 
 .containers.achievementExpanded .album-header {
         margin-bottom: 3rem;
+        padding-bottom: 3rem;
 }
 
 @media screen and (max-width: 768px) {
