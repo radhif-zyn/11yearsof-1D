@@ -1639,11 +1639,11 @@ a {
 }
 
 .containers.timelineExpanded {
-    height: 200rem;
+    height: 230rem;
 }
 
 .containers.achievementExpanded {
-    height: 80rem;
+    height: 150rem;
 }
 
 .timeline {
