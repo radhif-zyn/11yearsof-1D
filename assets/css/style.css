@@ -107,9 +107,6 @@ a {
 }
 
 
-
-
-
 .logo {
     background: url(../img/1dlogo.png);
     background-position: center;
@@ -1541,7 +1538,6 @@ a {
     background: var(--font-color);
     border: 3px solid var(--white);
 }
-
 .career-btn:hover span {
     color: var(--white);
 }*/
@@ -1677,17 +1673,6 @@ a {
     position: relative;
 }
 
-.timeline-content-title  {
-    font-weight: 700;
-    font-size: 2rem;
-    margin: 3rem 0 0 0;
-    transition: 0.4s;
-    padding: 0 10px;
-    color: #fff;
-    z-index: 2;
-    position: absolute;
-}
-
 .timeline-content-desc {
     font-size: var(--normal-fs);
     color: var(--font-color);
@@ -1793,50 +1778,6 @@ a {
     box-shadow:  0 10px 15px rgba(0, 0, 0, 0.4);
 }
 
-
-.timeline-content {
-    position: relative;
-}
-
-.timeline-content::before {
-    content: "";
-    position: absolute;
-    bottom: 47%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.747) 10%, transparent)
-}
-
-@media screen and (max-width: 768px) {
-    .timeline-content::before {
-        height: 30%;
-    }
-    .time-one::before {
-        bottom: 60%;
-        height: 40%;
-    }
-
-    .time-two::before {
-        bottom: 62%;
-    }
-
-    .time-three::before {
-        bottom: 59%;
-    }
-
-    .time-four::before,
-    .time-five::before,
-    .time-seven::before {
-        bottom: 57%;
-    }
-
-    .time-six::before {
-        bottom: 60%;
-    }
-
-}
-
 @media screen and (min-width: 280px) and (min-height: 653px) {
     .timeline-header {
         margin-top: -7rem;
@@ -1850,137 +1791,9 @@ a {
         overflow-x: hidden; 
     }
 
-    .timeline-content-title {
-        font-size: 1rem;
-    }
-
     .timeline-item::before,
     .timeline-item:nth-child(even)::before {
         font-size: .780rem;
-    }
-
-    .timeline-content::before {
-        height: 10%;
-    }
-    .time-one::before {
-        bottom: 75%;
-    }
-
-    .time-two::before {
-        bottom: 79%;
-    }
-
-    .time-three::before {
-        bottom: 73%;
-    }
-
-    .time-four::before {
-        bottom: 75%;
-    }
-
-    .time-five::before {
-        bottom: 73%;
-    }
-
-    .time-six::before {
-        bottom: 74.5%;
-    }
-
-    .time-seven::before {
-        bottom: 75%;
-    }
-}
-
-@media screen and (min-width: 320px) and (min-height: 480px) {
-    .time-one::before {
-        bottom: 66.5%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 71%;
-    }
-
-    .time-three::before {
-        bottom: 63%;
-    }
-
-    .time-four::before {
-        bottom: 66%;
-    }
-
-    .time-five::before {
-        bottom: 64%;
-    }
-
-    .time-six::before {
-        bottom: 66.4%;
-    }
-
-    .time-seven::before {
-        bottom: 66%;
-    }
-}
-
-@media screen and (min-width: 320px) and (min-height: 568px) {
-    .time-one::before {
-        bottom: 66%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 70%;
-    }
-
-    .time-three::before {
-        bottom: 63%;
-    }
-
-    .time-four::before {
-        bottom: 66%;
-    }
-
-    .time-five::before {
-        bottom: 64%;
-    }
-
-    .time-six::before {
-        bottom: 66.4%;
-    }
-
-    .time-seven::before {
-        bottom: 66%;
-    }
-}
-
-@media screen and (min-width: 360px) and (min-height: 640px) {
-    .time-one::before {
-        bottom: 60%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 62%;
-    }
-
-    .time-three::before {
-        bottom: 59%;
-    }
-
-    .time-four::before {
-        bottom: 57%;
-    }
-
-    .time-five::before {
-        bottom: 57%;
-    }
-
-    .time-six::before {
-        bottom: 60%;
-    }
-
-    .time-seven::before {
-        bottom: 57%;
     }
 }
 
@@ -1988,161 +1801,11 @@ a {
     .timeline-header {
         margin-top: -10rem;
     }
-    .time-one::before {
-        bottom: 55%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 61%;
-    }
-
-    .time-three::before {
-        bottom: 54%;
-    }
-
-    .time-four::before {
-        bottom: 55%;
-    }
-
-    .time-five::before {
-        bottom: 55%;
-    }
-
-    .time-six::before {
-        bottom: 58.5%;
-    }
-
-    .time-seven::before {
-        bottom: 55%;
-    }
-}
-
-@media screen and (min-width: 411px) and (min-height: 731px) {
-    .time-one::before {
-        bottom: 52%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 55%;
-    }
-
-    .time-three::before {
-        bottom: 47%;
-    }
-
-    .time-four::before {
-        bottom: 52%;
-    }
-
-    .time-five::before {
-        bottom: 48%;
-    }
-
-    .time-six::before {
-        bottom: 52%;
-    }
-
-    .time-seven::before {
-        bottom: 49%;
-    }
-}
-
-@media screen and (min-width: 768px) and (min-height: 1024px) {
-    .time-one::before {
-        bottom: 24%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 28%;
-    }
-
-    .time-three::before {
-        bottom: 22%;
-    }
-
-    .time-four::before {
-        bottom: 25%;
-    }
-
-    .time-five::before {
-        bottom: 25%;
-    }
-
-    .time-six::before {
-        bottom: 24%;
-    }
-
-    .time-seven::before {
-        bottom: 25%;
-    }
 }
 
 @media screen and (min-width: 768px) and (min-height: 1024px) {
     .timeline-header {
         margin-top: -3rem;
-    }
-
-    .time-one::before {
-        bottom: 47%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 50%;
-    }
-
-    .time-three::before {
-        bottom: 44%;
-    }
-
-    .time-four::before {
-        bottom: 47%;
-    }
-
-    .time-five::before {
-        bottom: 47%;
-    }
-
-    .time-six::before {
-        bottom: 46%;
-    }
-
-    .time-seven::before {
-        bottom: 47%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .time-one::before {
-        bottom: 48%;
-        height: 30%;
-    }
-
-    .time-two::before {
-        bottom: 51%;
-    }
-
-    .time-three::before {
-        bottom: 45%;
-    }
-
-    .time-four::before {
-        bottom: 48%;
-    }
-
-    .time-five::before {
-        bottom: 48%;
-    }
-
-    .time-six::before {
-        bottom: 47.5%;
-    }
-
-    .time-seven::before {
-        bottom: 48%;
     }
 }
 
